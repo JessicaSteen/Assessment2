@@ -54,8 +54,16 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
 
-
-
+function canWeDeliver (zipcode) {
+    for (let i = 0; i < deliveryAreaZipCodes.length; i++) {
+        if (zipcode[0] === deliveryAreaZipCodes) {
+            console.log("You're in our delivery zone");
+        } else {
+            console.log ("Sorry we can't delver to that address.")
+        }
+    }
+}
+canWeDeliver(85206);
 /* 
     Problem 2 Continued
 

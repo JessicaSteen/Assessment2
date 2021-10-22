@@ -31,7 +31,14 @@
 */
 
 //CODE HERE
-
+const pizza = {
+    name: "Hawaiian",
+    price: 10,
+    category: "entree",
+    popularity: 8,
+    rating: 8,
+    tags: "pineapple",
+}
 
 
 //////////////////PROBLEM 2////////////////////
