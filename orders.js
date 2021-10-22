@@ -64,3 +64,5 @@ let firstTicket = new Ticket;
 */
 
 //CODE HERE
+
+firstTicket.updateStatus("cooking");

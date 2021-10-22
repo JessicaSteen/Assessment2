@@ -29,8 +29,8 @@ class Employee {
         console.log(this.name, 'works on', this.shifts);
     }
 }
-let jessica = new Employee('jessica', 'fridays');
-jessica.getSchedule();
+// let jessica = new Employee('jessica', 'fridays');
+// jessica.getSchedule();
 /*
     Create a new instance of your class.
     Save it to a variable called `empOne`.
@@ -40,7 +40,7 @@ jessica.getSchedule();
     name: Jess
     shifts: weekday mornings, weekday afternoons
 */
-
+let empOne = new Employee('Jess', "weekday mornings, weekday afternons")
 //CODE HERE
 
 /*
@@ -49,7 +49,7 @@ jessica.getSchedule();
 */
 
 //CODE HERE
-
+empOne.getSchedule();
 
 /*
     Make a copy of the empOne object
@@ -91,7 +91,7 @@ jessica.getSchedule();
 */
 
 //CODE HERE
-
+class Manager 
 
 
 /*
