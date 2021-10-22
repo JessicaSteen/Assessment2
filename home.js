@@ -23,9 +23,12 @@
 
 //CODE HERE
 
+const greetUser = (username) => {
+    return (`welcome back ${username}`)
+}
 
-
-
+let greetUser2 = greetUser("Andrew");
+console.log(greetUser2)
 
 //////////////////PROBLEM 2////////////////////
 /* 
