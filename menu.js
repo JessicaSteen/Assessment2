@@ -82,6 +82,7 @@ console.log(price);
 //CODE HERE
 let {category} = pizza;
 console.log(category);
+
 //////////////////PROBLEM 3////////////////////
 /* 
     Create an array with about 5 objects in it.
@@ -95,7 +96,16 @@ console.log(category);
 */
 
 //CODE HERE
-
+const foodArr = [
+    {
+    name: "Supreme",
+    price: 12,
+    category: "appetizer",
+    popularity: 7,
+    rating: 6,
+    tags: ["sanck", "bite size", "breads"],
+}
+]
 
 
 //////////////////PROBLEM 4////////////////////
