@@ -55,8 +55,10 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 //CODE HERE
 
 function canWeDeliver (zipcode) {
-    deliveryAreaZipCodes.forEach(zipcode[0] => {
-     console.log("Youre in our delivery zone"));
+    deliveryAreaZipCodes.forEach == zipcode {
+        console.log("Youre in our delivery zone"); 
+    } else {
+       console.log("sorry cant deliver to that address") 
     }
 }
 canWeDeliver(85208);

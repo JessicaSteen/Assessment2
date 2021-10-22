@@ -128,5 +128,3 @@ class Manager
     `manager` object again to confirm 
     that an employee was added.
 */
-
-//CODE HERE
