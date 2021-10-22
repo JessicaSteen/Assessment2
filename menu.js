@@ -103,8 +103,8 @@ const foodArr = [
     category: "appetizer",
     popularity: 7,
     rating: 6,
-    tags: ["sanck", "bite size", "breads"],
-}
+    tags: ["snack", "bite size", "breads"],
+    }
 ]
 
 
@@ -122,7 +122,11 @@ const foodArr = [
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+const filteredFood = (callback) => {
+    return 
+}
+
+const filteredFood = foodArr.filter(category)
 
 
 

@@ -21,19 +21,22 @@
 const cart = [
     {
         name: 'pizza', 
-        price: 9.99
+        price: 9
     }, 
     {
         name: 'pasta', 
-        price: 8.99
+        price: 8
     }, 
     {
         name: 'salad', 
-        price: 7.99
+        price: 7
     }
 ]
 
 //CODE HERE
+const summedPrice = cart.reduce((arr, curr,) => arr.price + curr.price)
+
+console.log(summedPrice)
 
 // const summedPrice = cart.reduce(/* CALLBACK HERE */)
 
